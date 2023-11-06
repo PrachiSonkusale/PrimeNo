@@ -1,0 +1,26 @@
+class PrimeNo 
+{
+   public static void main(String[] args) 
+	{
+         int num=7;
+         int den=2;
+	  while (den<num)
+	     {
+		  if (num %den==0)
+		  {
+			  break;
+		  }
+		  den++;
+	     }
+	      
+                 if (num==den)
+	         {
+		  System.out.println("It Is a Prime No");
+	         }
+	  
+                else
+		 {
+		  System.out.println("It Is a Not Prime No");
+                 }
+	}
+}
